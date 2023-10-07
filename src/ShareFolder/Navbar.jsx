@@ -75,7 +75,7 @@ return (
       {navLinks}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-3xl ">Social Events</a>
+    <a className="btn btn-ghost normal-case text-3xl "><span className="text-orange-500">Social</span> Events</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -83,7 +83,7 @@ return (
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn">Login</a>
   </div>
 </div> 
                                                                                         
