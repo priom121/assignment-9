@@ -64,7 +64,7 @@ Pages
  </>
 return (
   <div>
-      <div className="navbar bg-gray-200 p-5 shadow-lg text-black">
+      <div className="navbar bg-gray-300 p-5 shadow-lg text-black">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
