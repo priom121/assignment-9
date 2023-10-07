@@ -1,0 +1,39 @@
+[
+{
+    "Event Name": "Weddings",
+    "Image": "https://i.ibb.co/LJqWNF4/14.jpg",
+    "Price": "$300",
+    "Short Description": " wedding is a fictional or simulated marriage event used for various purposes, such as practice for wedding professionals, research, or entertainment. It mimics the elements of a real wedding without legal or emotional commitments."
+},
+{
+    "Event Name": "Birthday Parties",
+    "Image": "https://i.ibb.co/xzhpq63/15.webp",
+    "Price": "$75 ",
+    "Short Description": "Birthday parties are joyous celebrations held annually to commemorate a person's birthdate. They typically involve cake, gifts, decorations, and gathering friends and family to honor the birthday individual and create lasting memories."
+},
+{
+    "Event Name": "Anniversaries",
+    "Image": "https://i.ibb.co/TMJF39C/16.jpg",
+    "Price": "$400 ",
+    "Short Description": "An anniversary marks the passage of a year since a significant event, often a wedding or the beginning of a romantic relationship. It's a time for couples to celebrate their love and commitment through special gestures or outings."
+},
+{
+    "Event Name": "Engagement Parties",
+    "Image": "https://i.ibb.co/JzyB2Pr/1111111111111.jpg",
+    "Price": "$100",
+    "Short Description": "Engagement parties are festive gatherings thrown to celebrate a couple's recent engagement. Friends and family come together to offer their congratulations, share in the couple's happiness, and often to toast to their upcoming wedding."
+},
+{
+    "Event Name": "Retirement Parties",
+    "Image": "https://i.ibb.co/4W3TLDK/18.jpg",
+    "Price": "$10",
+    "Short Description": "Retirement parties are held to commemorate a person's retirement from their career or job. They provide an opportunity for colleagues and loved ones to honor the retiree's accomplishments and wish them well in their future endeavors"
+},
+{
+    "Event Name": "Baby shower",
+    "Image": "https://i.ibb.co/xmrPn1Y/19.jpg",
+    "Price": "$25",
+    "Short Description": "A baby shower is a pre-birth celebration for expectant parents, especially the mother. Friends and family come together to offer gifts, support, and good wishes to help prepare the parents for the arrival of their new baby."
+}
+]
+                          
