@@ -6,6 +6,7 @@ import Pages from "../Pages/pages";
 import Blog from "../Pages/Blog";
 import Login from "../From/Login";
 import Register from "../From/Register";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
        {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
                    },
                    {
                     path:'/pages/:id',
-                    element:<Pages></Pages>,
+                    element:<PrivateRoute><Pages></Pages></PrivateRoute>,
                     loader:()=>fetch('/blog.json')
                    } ,
                    {
