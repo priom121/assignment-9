@@ -19,8 +19,9 @@ const router = createBrowserRouter([
                        loader:()=> fetch('/blog.json')
                    },
                    {
-                    path:'/pages',
-                    element:<Pages></Pages>
+                    path:'/pages/:id',
+                    element:<Pages></Pages>,
+                    loader:()=>fetch('/blog.json')
                    } ,
                    {
                     path:'/blog',

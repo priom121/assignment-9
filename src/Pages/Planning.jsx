@@ -8,7 +8,7 @@ return (
        <h3 className="text-4xl text-center font-semibold">
        <span className="text-orange-400">Hello!</span> We Are an Event <span className="text-orange-400">Planning</span> Agency</h3>
        <p className="text-center text-base mt-5 font-normal">As the premier event planning company in the area, we know that it’s not <br></br> “one size fits all”. Each event and client is unique and we believe our services<br/> should be as well. We know that it should be “Can I hire a planner?” not <br/>  “Can I afford one?”.</p> 
-       <div className='lg:flex justify-between px-10 py-20'>
+       <div className='lg:flex md:flex-row justify-between px-10 py-20'>
          <div>
             <FaHome className='text-orange-500 text-4xl'></FaHome> 
             <p className='text-lg font-medium'>Find the perfect venue <br/>for free</p>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Card = ({service}) => {
 
@@ -10,9 +11,12 @@ return (
     <h2 className="card-title text-2xl font-bold">{Event}</h2>
     <p className="text-base font-medium">{Description.slice(0,100)}.....</p>
     <p className="text-xl font-medium">{Price}</p>
+    <Link to={`/pages/${id}`} >
     <div className="card-actions  ">
-      <button className="btn btn-secondary w-full">Details</button>
+     <button className="btn btn-secondary w-full">Details</button>
     </div>
+    </Link>
+    
   </div>
 </div>                                                                              
  </div>
