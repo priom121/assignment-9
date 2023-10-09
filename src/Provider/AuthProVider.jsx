@@ -39,6 +39,13 @@ const logOut =()=>{
    return signOut(auth)
 }
 
+// user update profile and image
+const updateProfile =(photo,name)=>{
+     return updateProfile(auth.currentUser,{
+          photoURL:photo ,displayName:name 
+     })
+}
+
 useEffect(()=>{
      const unSubscribe = onAuthStateChanged(auth,currentUser=>{
           console.log(currentUser);
@@ -57,7 +64,8 @@ user,
  logIn ,
  logOut,
  register,
- loading  
+ loading ,
+ updateProfile 
  }
 return (
  <AuthContext.Provider value={authInfo}>

@@ -24,13 +24,13 @@ const Login = () => {
     logIn(email,password)
     .then(result=>{
       console.log(result.user)
-      // location
-     navigate(location?.state ? location.state :'/' )
       Swal.fire({
         icon: 'success',
         title: 'done',
         text: 'Wow successfully login',
       })
+       // location
+     navigate(location?.state ? location.state :'/' )
     })
     .catch(error=>{
       console.log(error);

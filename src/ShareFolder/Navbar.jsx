@@ -1,11 +1,12 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProVider";
-import authorImg from '../../public/images/111.webp'
+
 
 
 const Navbar = () => {
-  const {user ,logOut} = useContext(AuthContext);
+  const {user ,logOut } = useContext(AuthContext);
+  // console.log(updateProfile);
  const handleLogOut = ()=>{
     logOut()
  }
@@ -69,8 +70,8 @@ Gallery
    </ul>
  </>
 return (
-  <div>
-      <div className="navbar bg-gray-300 p-5 shadow-lg text-black">
+  <div className="">
+      <div className=" navbar bg-gray-300 p-5 shadow-lg text-black">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -89,16 +90,24 @@ return (
     </ul>
   </div>
   <div className="navbar-end">
-    {/* {
-      user.photoURL ?<img className="w-[50px] mr-2" src={user.photoURL}></img> :''
-    } */}
-   <img className="w-[50px] mr-2" src={authorImg}></img>
-    {
-      user ?  <button onClick={handleLogOut} className="btn text-orange-600">Logout</button>
+   
+   {/* <img className="w-[50px] mr-2" src={authorImg}></img> */}
+     {
+      user ?  <button onClick={handleLogOut} className="btn text-orange-600">
+        Logout</button>
       :   <Link to='/login'>
       <button className="btn text-orange-600">Login</button>
       </Link>
     }
+    {/* {
+      user ? <div className ="flex items-center">
+         <p className="mr-2 font-medium text-orange-600 text-xl">{user.displayName}</p> <div className="w-[50px] ">
+        <img src={user?.photoURL}></img></div>  
+         <button onClick={handleLogOut} className="btn text-orange-600">
+      Logout</button> </div> :<Link to='/login'>
+      <button className="btn text-orange-600">Login</button>
+      </Link>
+    } */}
 
   </div>
 </div> 

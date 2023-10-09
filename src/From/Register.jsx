@@ -4,8 +4,8 @@ import { AuthContext } from "../Provider/AuthProVider";
 import Swal from "sweetalert2";
 
 const Register = () => {
-  const {register }= useContext(AuthContext)
-
+  const {register  }= useContext(AuthContext)
+// console.log(updateProfile);
 
   const handleRegister= (e)=>{
     e.preventDefault();
@@ -19,7 +19,7 @@ const Register = () => {
     if(password.length < 6){
       Swal.fire({
         icon: 'error',
-        title: 'oopss ',
+        title: 'opps ',
         text: 'password must be 6 characters',
       })
       return;

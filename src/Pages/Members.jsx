@@ -18,7 +18,7 @@ return (
   <div  className="max-w-screen-2xl mx-auto">
         <h2 className="text-4xl text-center mt-2 font-semibold">
                               Our event Honour</h2>
-<div  data-aos="fade-right" className="px-10 py-12 flex   className='text-orange-500 text-4xl' justify-between gap-5">
+<div  data-aos="fade-right" className="px-10 py-12 flex className='text-orange-500 text-4xl' justify-between gap-5">
                               
           <div className="card card-side bg-base-100 shadow-xl">
           <figure><img  className='bg-cover' src={member1} alt="Movie"/></figure>

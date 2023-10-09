@@ -9,7 +9,8 @@ return (
     <h2 className="card-title text-3xl font-bold">{Event}</h2>
     <p className="text-2xl font-bold">{Price}</p>
     <p className="text-xl">{Description}</p>
-    <button className="p-3 w-1/6 text-white mx-auto rounded-2xl bg-orange-500">Book Now</button>
+    <button className="p-3 w-1/6 text-white mx-auto rounded-2xl bg-orange-500">
+      Book Now</button>
   </div>
 </div>
 );
