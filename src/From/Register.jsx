@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 const Register = () => {
   const {register }= useContext(AuthContext)
 
+
   const handleRegister= (e)=>{
     e.preventDefault();
     console.log(e.currentTarget);

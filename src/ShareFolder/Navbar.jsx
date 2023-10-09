@@ -89,6 +89,9 @@ return (
     </ul>
   </div>
   <div className="navbar-end">
+    {/* {
+      user.photoURL ?<img className="w-[50px] mr-2" src={user.photoURL}></img> :''
+    } */}
    <img className="w-[50px] mr-2" src={authorImg}></img>
     {
       user ?  <button onClick={handleLogOut} className="btn text-orange-600">Logout</button>
