@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProVider";
-
+import authorImg from '../../public/images/111.webp'
 
 
 const Navbar = () => {
@@ -15,29 +15,29 @@ const Navbar = () => {
     <NavLink
   to="/"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-red-400" : ""
+    isPending ? "pending" : isActive ? "text-red-500" : ""
   }
 >
   Home
 </NavLink>
     </li>
 
-    {/* <li>
+    <li>
     <NavLink
-  to="/pages"
+  to="/gallery"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-red-400" : ""
   }
 >
-Pages
+Gallery
 </NavLink>
-    </li> */}
+    </li>
 
     <li>
     <NavLink
   to="/blog"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-red-400" : ""
+    isPending ? "pending" : isActive ? "text-red-500" : ""
   }
 >
  Blog
@@ -49,7 +49,7 @@ Pages
   <NavLink
   to="/login"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-red-400" : ""
+    isPending ? "pending" : isActive ? "text-red-500" : ""
   }
 >
  Login
@@ -60,7 +60,7 @@ Pages
     <NavLink
   to="/register"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-red-400" : ""
+    isPending ? "pending" : isActive ? "text-red-500" : ""
   }
 >
  Register
@@ -89,6 +89,7 @@ return (
     </ul>
   </div>
   <div className="navbar-end">
+   <img className="w-[50px] mr-2" src={authorImg}></img>
     {
       user ?  <button onClick={handleLogOut} className="btn text-orange-600">Logout</button>
       :   <Link to='/login'>
