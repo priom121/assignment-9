@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer:A: `{}` ?
 
-<i>Write your explanation here</i>
+<i></i>
 because gretting is empty so finally outpur is null
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer:C: `"12"` ?
 
-<i>Write your explanation here</i>
+<i></i>
  because a value is intejer and b value is string we know inter and string sum is interjer and could not sum 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer:A: `['🍕', '🍫', '🥑', '🍔']` ?
 
-<i>Write your explanation here</i>
+<i></i>
 the code initialize an array food with emoji property set 🍕 and leter change the favouriteFood property to 🍝 finally food array which is unchanged
 </p>
 </details>
@@ -96,7 +96,7 @@ console.log(sayHi());
 
 #### Answer: B: `Hi there, undefined` ?
 
-<i>Write your explanation here</i>
+<i></i>
  <p> code defiens a function sayHi that excepts a name parameter and returns gretting message ,but you function called without arguments it produces with an a undefiend name  </p>
 </p>
 </details>
@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: C: 3?
 
-<i>Write your explanation here</i>
+<i></i>
  the code count and logs the number of non zero values in the nums array which is 3
 </p>
 </details>
