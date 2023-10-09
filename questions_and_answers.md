@@ -97,7 +97,7 @@ console.log(sayHi());
 #### Answer: B: `Hi there, undefined` ?
 
 <i>Write your explanation here</i>
-  code defiens a function sayHi that excepts a name parameter and returns gretting message ,but you function called without arguments it produces with an a undefiend name 
+ <p> code defiens a function sayHi that excepts a name parameter and returns gretting message ,but you function called without arguments it produces with an a undefiend name  </p>
 </p>
 </details>
 
