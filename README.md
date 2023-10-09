@@ -6,3 +6,10 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<p>some services our website </p>
+<P> 1 .Our website is social event website there are many facilaties our website</P>
+<P>2.this website have 6 services wedding ,engagement , retirement , baby shower ,birthday etc</P>
+<P>3.you scrool the home page easily but you click any services for you then you should first login neither register</P>
+<P>4.our team member is very good soul the always good service</P>
+<P>5.I hope our services is very well for you thank you.</P>
